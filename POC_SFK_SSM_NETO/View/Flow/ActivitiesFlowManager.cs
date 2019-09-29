@@ -83,34 +83,26 @@ namespace POC_SFK_SSM_NETO.View.Flow
 
         private void ShowActivity(FlowDirection direction)
         {
-            Type nextActivity;
+            Type targetActivity;
 
             if (direction == FlowDirection.Forward)
             {
-                nextActivity = this.FlowManager.GetNextScreen();
+                targetActivity = this.FlowManager.GetNextScreen();
             }
             else
             {
-                nextActivity = this.FlowManager.GetPriorScreen();
+                targetActivity = this.FlowManager.GetPriorScreen();
             }
 
-            if (nextActivity == null)
+            if (targetActivity == null)
             {
-                if (direction == FlowDirection.Forward)
-                {
-                    Toast.MakeText(this, "There's no activity in the forward direction", ToastLength.Short);
-                    return;
-                }
-                else
-                {
-                    this.Finish();
-                    return;
-                }
+                this.Finish();
+                return;
             }
 
-            Intent nextActivityIntent = new Intent(this, nextActivity);
+            Intent nextActivityIntent = new Intent(this, targetActivity);
 
-            var inputValues = this.GetScreenInput(nextActivity);
+            var inputValues = this.GetScreenInput(targetActivity);
 
             this.SetInputValues(inputValues, nextActivityIntent);
 
