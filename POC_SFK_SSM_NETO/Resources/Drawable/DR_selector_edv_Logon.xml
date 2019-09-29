@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item android:right="2dp" android:left="2dp" android:top="2dp" android:bottom="2dp">
+
+    <!-- Controle de status/cor do botão padrão -->
+    <selector>
+
+      <!-- Normal -->
+      <item>
+        <shape>
+          <corners android:radius="1.5dp" />
+          <solid android:color="#DDFFFFFF"></solid>
+          <padding android:left="10dp" android:top="10dp" android:right="10dp" android:bottom="10dp" />
+        </shape>
+      </item>
+
+    </selector>
+
+  </item>
+
+</layer-list>

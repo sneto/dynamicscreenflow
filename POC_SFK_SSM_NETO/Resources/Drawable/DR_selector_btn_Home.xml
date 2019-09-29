@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!-- Selector utilizado para os botões da tela home e tela principal -->
+  <item android:state_pressed="true">
+    <shape>
+      <corners android:radius="1.5dp" />
+      <gradient android:angle="270" android:endColor="#E3E3E5" android:startColor="#E3E3E5" />
+      <stroke android:width="0dp" android:color="#E3E3E5" />      
+      <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+    </shape>
+  </item>
+  
+  <item >
+    <shape>
+      <corners android:radius="1.5dp" />
+      <gradient android:angle="270" android:endColor="#EFF0F2" android:startColor="#EFF0F2" />
+      <stroke android:width="0dp" android:color="#E3E3E5" />      
+      <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
+    </shape>
+  </item>
+
+</selector>

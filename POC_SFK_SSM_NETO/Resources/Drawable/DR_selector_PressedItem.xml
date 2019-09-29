@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <selector>
+            <item
+                android:state_pressed="true"
+                android:drawable="@color/col_actionbar_menu_pressionado" />
+
+            <item>
+                <shape>
+                    <solid android:color="@null"></solid>
+                </shape>
+            </item>
+
+        </selector>
+
+    </item>
+
+</layer-list>

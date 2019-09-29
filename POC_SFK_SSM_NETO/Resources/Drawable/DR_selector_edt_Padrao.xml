@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item android:state_enabled="false" android:drawable="@drawable/png_edt_padraoDisabled"> </item>
+  <item android:state_pressed="true"  android:state_focused="true" android:drawable="@drawable/png_edt_padraoSelectedPressed"> </item>
+  <item android:state_pressed="true"  android:drawable="@drawable/png_edt_padraoPressed"> </item>
+  <item android:state_focused="true"  android:drawable="@drawable/png_edt_padraoSelected"> </item>
+  <item android:drawable="@drawable/png_edt_padraoNormal"> </item>
+
+</selector>

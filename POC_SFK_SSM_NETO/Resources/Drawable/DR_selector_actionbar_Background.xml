@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Selector do background do drop do menu da action bar -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@color/col_actionbar_menu_fundo_selecionado" />
+    <item android:drawable="@color/col_actionbar_menu_fundo_padrao" />
+</selector>

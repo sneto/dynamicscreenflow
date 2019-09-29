@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+  <!-- 
+  ###################################################################################################
+                                                OBSERVAÇÕES
+  ###################################################################################################                                                
+    
+  -> Padrão:
+  
+    - Color para local específico: col_local_nome_color
+        ex.: col_texto_muito_claro
+        
+    - Color geral: col_nome_color
+        ex.: col_cinza_muito_claro
+        
+    - Caso seja necessário criar um novo tipo, utilize "col_" como prefixo
+  
+  ###################################################################################################
+  -->
+
+<resources>
+
+  <!-- Cores da action bar -->
+  <color name="col_actionbar_fundo">#D60020</color>
+  <color name="col_actionbar_texto">#FFFFFF</color>
+  <color name="col_actionbar_menu_fundo_selecionado">#FEC7C5</color>
+  <color name="col_actionbar_menu_fundo_padrao">#FFFFFF</color>
+  <color name="col_actionbar_menu_texto">#353535</color>
+  <color name="col_actionbar_menu_pressionado">#FFEAEA</color>
+
+
+  <!-- Padrões -->
+  <color name="col_btn_padrao">@color/col_actionbar_fundo</color>
+  <color name="col_fundo_padrao">#FFFFFF</color>
+  <color name="col_fundo_info_padrao">@color/col_ltv_normal</color>
+  <color name="col_fundo_info_cabecalho_listview">#FD3837</color>
+  <color name="col_texto_padrao">#666666</color>
+  <color name="col_texto_padrao_desabilitado">#9E9E9E</color>
+  <color name="col_fundo_drawer">#FEFFFFFF</color>
+
+  <!-- List view -->
+  <color name="col_ltv_normal">#F2F3F4</color>
+  <color name="col_ltv_pressionada">#FFEAEA</color>
+
+  <!-- Textos -->
+  <color name="col_texto_padrao_desabilitado">#7F7F7F</color>
+  <color name="col_texto_padrao">#3F3F3F</color>
+  <color name="col_texto_muito_claro">#D1D1D1</color>
+  <color name="col_texto_claro">#A0A0A0</color>
+  <color name="col_texto_medio">#707070</color>
+  <color name="col_texto_escuro">#232323</color>
+  <color name="col_texto_muito_escuro">#0C0C0C</color>
+  <color name="col_texto_vermelho">#C0392B</color>
+
+  <color name="col_texto_verde">#27ae60</color>
+ 
+  <color name="col_btn_pressionado_livro_rotas">#E9E9E9</color>
+
+</resources>
